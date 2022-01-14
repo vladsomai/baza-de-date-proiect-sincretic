@@ -1,0 +1,7 @@
+CREATE TABLE Clienti (
+    ID_Client INT PRIMARY KEY AUTO_INCREMENT,
+    NumarCard VARCHAR(8) NOT NULL,
+    Nume VARCHAR(30) NOT NULL,
+    Prenume VARCHAR(30) NOT NULL,
+    DataNasterii DATE NOT NULL
+);
